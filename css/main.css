@@ -15,6 +15,11 @@ body {
 header {
   background-color: #101a84;
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* logo */
 
@@ -147,8 +152,8 @@ header {
 }
 
 /* section 1 */
-
 .section-1 {
+  padding-bottom: 500px;
 }
 
 .piano-formativo {
@@ -220,4 +225,32 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+}
+
+.section-2 {
+}
+
+.section-2 img {
+  float: left;
+  width: 25%;
+  position: relative;
+  left: 400px;
+  top: 50px;
+  float: left;
+}
+
+.piano-personalizzato {
+  width: 430px;
+  float: left;
+  position: relative;
+  left: 650px;
+  top: 50px;
+}
+
+.piano-personalizzato h2 {
+  padding-bottom: 20px;
+}
+
+.piano-personalizzato p {
+  padding-bottom: 20px;
 }
