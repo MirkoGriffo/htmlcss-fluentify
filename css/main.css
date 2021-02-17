@@ -5,3 +5,42 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* UTILITIES */
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  background-color: #101a84;
+}
+
+#logo {
+  margin-left: 200px;
+  vertical-align: middle;
+}
+
+.nav-center {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.nav-center ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.nav-center ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+}
