@@ -107,7 +107,7 @@ header {
 .jumbotron img {
   width: 45%;
   position: relative;
-  bottom: 96px;
+  bottom: 95px;
   left: 1150px;
 }
 
@@ -138,9 +138,86 @@ header {
   height: 100px;
   background-color: lightgray;
   text-align: center;
+  line-height: 30px;
 }
 
 #testo {
   position: relative;
   top: 25px;
+}
+
+/* section 1 */
+
+.section-1 {
+}
+
+.piano-formativo {
+  float: left;
+  width: 350px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  left: 400px;
+}
+
+.piano-formativo h2 {
+  color: yellowgreen;
+  margin-top: 20px;
+}
+
+.piano-formativo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.riga {
+  width: 145px;
+  position: relative;
+  left: 90px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.tutor {
+  float: left;
+  width: 350px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  left: 480px;
+}
+
+.tutor h2 {
+  color: yellowgreen;
+  margin-top: 20px;
+}
+
+.tutor img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.monitora {
+  float: left;
+  width: 350px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  left: 550px;
+}
+
+.monitora h2 {
+  color: yellowgreen;
+  margin-top: 20px;
+}
+
+.monitora img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
