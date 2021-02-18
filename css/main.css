@@ -10,7 +10,7 @@ body {
   font-family: sans-serif;
 }
 
-/* UTILITIES */
+/* Utilities */
 
 header {
   background-color: #101a84;
@@ -94,7 +94,7 @@ header {
   width: 200px;
   color: white;
   border-style: solid;
-  border-color: #101a84;
+  border-color: yellowgreen;
   border-width: 1px;
   text-align: center;
   padding: 7px;
@@ -112,7 +112,7 @@ header {
 .jumbotron img {
   width: 45%;
   position: relative;
-  bottom: 92px;
+  bottom: 87px;
   left: 1150px;
 }
 
@@ -123,20 +123,25 @@ header {
   color: white;
 }
 
-#slogan p {
+#struttura-2 {
   background-color: yellowgreen;
-  text-align: center;
-  height: 35px;
+  height: 55px;
   width: 200px;
-  color: white;
-  border-style: solid;
-  border-color: #101a84;
+  border-color: yellowgreen;
   border-width: 1px;
+  border-style: solid;
   text-align: center;
-  padding: 7px;
+  padding-top: 16px;
   border-radius: 5px;
+  position: relative;
+  top: 30px;
+}
+
+#struttura-2 a {
+  text-align: center;
+  color: white;
   text-transform: uppercase;
-  margin-top: 25px;
+  text-decoration: none;
 }
 
 .jumbotron-bottom {
@@ -151,7 +156,8 @@ header {
   top: 25px;
 }
 
-/* section 1 */
+/* Section 1 */
+
 .section-1 {
   padding-bottom: 500px;
 }
@@ -227,6 +233,8 @@ header {
   width: 60%;
 }
 
+/* Section 2 */
+
 .section-2 img {
   float: left;
   width: 25%;
@@ -252,9 +260,11 @@ header {
   padding-bottom: 20px;
 }
 
+/* Footer */
+
 footer {
   background-color: #cccccc;
-  height: 100px;
+  height: 130px;
   width: 100%;
   position: absolute;
   top: 1600px;
@@ -263,20 +273,22 @@ footer {
 footer h2 {
   float: left;
   margin-left: 300px;
-  margin-top: 40px;
+  margin-top: 55px;
 }
 
 .seleziona {
   float: left;
   width: 500px;
-  margin-top: 47px;
+  margin-top: 55px;
   margin-left: 480px;
 }
 
 .seleziona p {
   float: left;
   margin-left: 100px;
+  margin-top: 2px;
 }
+
 #selection {
   margin-left: 50px;
   background-color: #cccccc;
@@ -284,4 +296,43 @@ footer h2 {
   border-left: none;
   border-right: none;
   padding-right: 50px;
+}
+
+#piano {
+  float: left;
+  background-color: yellowgreen;
+  text-align: center;
+  height: 45px;
+  width: 250px;
+  color: white;
+  border-style: solid;
+  border-color: yellowgreen;
+  border-width: 1px;
+  text-align: center;
+  padding: 11px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  top: 45px;
+  right: 110px;
+}
+
+#help {
+  background-color: yellowgreen;
+  text-align: center;
+  height: 35px;
+  width: 80px;
+  color: white;
+  border-style: solid;
+  border-color: yellowgreen;
+  border-width: 1px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  right: 110px;
 }
