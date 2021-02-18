@@ -112,7 +112,7 @@ header {
 .jumbotron img {
   width: 45%;
   position: relative;
-  bottom: 95px;
+  bottom: 92px;
   left: 1150px;
 }
 
@@ -141,7 +141,7 @@ header {
 
 .jumbotron-bottom {
   height: 100px;
-  background-color: lightgray;
+  background-color: #e6e6e6;
   text-align: center;
   line-height: 30px;
 }
@@ -227,9 +227,6 @@ header {
   width: 60%;
 }
 
-.section-2 {
-}
-
 .section-2 img {
   float: left;
   width: 25%;
@@ -243,7 +240,7 @@ header {
   width: 430px;
   float: left;
   position: relative;
-  left: 650px;
+  left: 550px;
   top: 50px;
 }
 
@@ -253,4 +250,38 @@ header {
 
 .piano-personalizzato p {
   padding-bottom: 20px;
+}
+
+footer {
+  background-color: #cccccc;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 1600px;
+}
+
+footer h2 {
+  float: left;
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+.seleziona {
+  float: left;
+  width: 500px;
+  margin-top: 47px;
+  margin-left: 480px;
+}
+
+.seleziona p {
+  float: left;
+  margin-left: 100px;
+}
+#selection {
+  margin-left: 50px;
+  background-color: #cccccc;
+  border-top: black;
+  border-left: none;
+  border-right: none;
+  padding-right: 50px;
 }
